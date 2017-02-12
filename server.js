@@ -5,7 +5,7 @@ var path = require('path');
 
 var articles ={
     
-    'article-One' : {
+    'article-one' : {
     title : 'Article One | Manish Wadhwani',
     heading : 'Article One',
     date : '12 Feb, 2017',
@@ -27,7 +27,7 @@ var articles ={
                 </p>
     `},
     
-    'article-Two' : {
+    'article-two' : {
         title : 'Article Two | Manish Wadhwani',
     heading : 'Article Two',
     date : '12 Feb, 2017',
@@ -38,7 +38,7 @@ var articles ={
             `    
     },
     
-    'article-Three' : {
+    'article-three' : {
         title : 'Article Three | Manish Wadhwani',
     heading : 'Article Three',
     date : '14 Feb, 2017',
@@ -111,7 +111,7 @@ app.get('/ui/madi.png', function (req, res) {
 
 app.get('/:articleName',function (req, res){
     var articleName=req.param.articleName;
-    res.send(createTemplate(articles[article-One]));
+    res.send(createTemplate(articles[articleName]));
 });
 
 
