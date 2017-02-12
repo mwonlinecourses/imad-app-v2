@@ -91,6 +91,7 @@ var htmlTemplate =`
     </body>
 </html>
 `;
+return htmlTemplate;
 }
 
 var app = express();
