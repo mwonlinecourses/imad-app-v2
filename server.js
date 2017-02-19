@@ -89,6 +89,8 @@ var htmlTemplate =`
             <div>
                 <input type="text" id="comment" nameholder="WRITE COMMENT"></input>
                 <input type="submit" value="submit" id="add-comment"></input>
+                <ul id="commentlist">
+                </ul>
             </div>
         </div>
         
