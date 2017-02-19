@@ -1,7 +1,7 @@
 var button = document.getElementById('counter');
 var counter = 0;
 console.log('JS');
-button.onClick = function(){
+button.onclick = function (){
   
   counter = counter + 1;
   console.log("bjchjw");
