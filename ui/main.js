@@ -59,6 +59,7 @@ submit.onclick = function(){
 //comments JS
 var commentbutton = document.getElementById(addcomment);
 commentbutton.onclick = function() {
+    console.log('asdf');
   var commentInput = document.getElementById(comment);
   var comment = commentInput.value;
   
