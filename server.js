@@ -96,7 +96,7 @@ var htmlTemplate =`
         
         <script src="/ui/main.js">
         
-        </script
+        </script>
         
     </body>
 </html>
