@@ -22,6 +22,6 @@ commentbutton.onclick = function() {
     }  
   };
   
-  request.open('GET','https://mwonlinecourses.imad.hasura-app.io/submit-comment?currentcomment='+comment,true);
+  request.open('GET','http://mwonlinecourses.imad.hasura-app.io/submit-comment?currentcomment='+comment,true);
   request.send(null);
 };
