@@ -26,13 +26,10 @@ button.onclick = function (){
 
 //submit
 
-
-
+var nameInput = document.getElementById('name');
+var name = nameInput.value;
 var submit = document.getElementById('search_button');
 submit.onclick = function(){
-    var nameInput = document.getElementById('name');
-    var name = nameInput.value;
-    
     
     var names = [];
     var request = new XMLHttpRequest()
