@@ -20,6 +20,6 @@ button.onclick = function (){
     };
     
     request.open('GET','http://mwonlinecourses.hasura-app.io/counter',true);
-    request.send();
+    request.send(null);
     
 };
