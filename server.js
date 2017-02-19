@@ -94,7 +94,7 @@ var htmlTemplate =`
             </div>
         </div>
         
-        <script src="/ui/main.js">
+        <script src="/ui/article.js">
         
         </script>
         
