@@ -23,3 +23,20 @@ button.onclick = function (){
     request.send(null);
     
 };
+
+//submit
+
+var nameInput = document.getElementById('name');
+var name = nameInput.value;
+
+var submit = document.getElementById('search_button');
+submit.onclick = function(){
+  
+  var names = ['name1','name2','name3','name4'];  
+  var li='';
+  for(var i=0 ; i<names.length ; i++){
+      li += '<li>'+names[i]+'</li>';
+  }
+  var ul = document.getElementById('namelist');
+  ul.innerHTML = li;
+};
