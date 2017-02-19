@@ -86,7 +86,15 @@ var htmlTemplate =`
                 ${content}
 
             </div>
+            <div>
+                <input type="text" id="comment" nameholder="WRITE COMMENT"></input>
+                <input type="submit" value="submit" id="add-comment"></input>
+            </div>
         </div>
+        
+        <script src="/ui/main.js">
+        
+        </script
         
     </body>
 </html>
@@ -125,6 +133,14 @@ app.get('/submit-name/' , function (req,res){
   names.push(name);
   
   res.send(JSON.stringify(names));
+});
+
+var comments = [];
+app.get('/submit-comment', function(req,res){
+    var comment = req.query.currentcomment;
+    
+    comments.push(comment);
+    res.send(JSON.stringify(comments));
 });
 
 app.get('/:articleName',function (req, res){
