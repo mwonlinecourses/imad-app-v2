@@ -31,7 +31,6 @@ var name = nameInput.value;
 var submit = document.getElementById('search_button');
 submit.onclick = function(){
     
-    var names = [];
     var request = new XMLHttpRequest()
   
     request.onreadystatechange = function() {
