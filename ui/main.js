@@ -1,20 +1,10 @@
-console.log('Loaded!');
-
-//Changes to be done on the main text
-var element = document.getElementById('main-text');
-
-element.innerHTML='New Value';
-
-//move image 
-var img= document.getElementById('madi');
-
-marginleft=0;
-function moveRight(){
-    marginleft = marginleft + 1;
-    img.style.marginLeft = marginleft+'px'; 
-}
-
-img.onclick = function(){
-    var interval = setInterval(moveRight,50);
-   // img.style.marginLeft='100px';
+var button = document.getElementById('counter');
+var counter = 0;
+button.onClick = function(){
+  
+  counter = counter + 1;
+  
+  var span = document.getElementById('span');
+  span.innerHTML = counter;
+    
 };
