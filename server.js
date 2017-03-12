@@ -11,52 +11,6 @@ var config = {
   password : process.env.DB_PASSWORD 
 };
 
-var articles ={
-    
-    'article-one' : {
-    title : 'Article One | Manish Wadhwani',
-    heading : 'Article One',
-    date : '12 Feb, 2017',
-    content : `
-     <p>
-                    This is article one!This is article one!This is article one!
-                    This is article one!This is article one!This is article one!
-                    This is article one!This is article one!This is article one!
-                </p>
-                <p>
-                    This is article one!This is article one!This is article one!
-                    This is article one!This is article one!This is article one!
-                    This is article one!This is article one!This is article one!
-                </p>
-                <p>
-                    This is article one!This is article one!This is article one!
-                    This is article one!This is article one!This is article one!
-                    This is article one!This is article one!This is article one!
-                </p>
-    `},
-    
-    'article-two' : {
-        title : 'Article Two | Manish Wadhwani',
-    heading : 'Article Two',
-    date : '12 Feb, 2017',
-    content : `
-                <p>
-                    This is article Two!
-                </p>
-            `    
-    },
-    
-    'article-three' : {
-        title : 'Article Three | Manish Wadhwani',
-    heading : 'Article Three',
-    date : '14 Feb, 2017',
-    content : `
-         <p>
-            This is article Three!
-        </p>`            
-    }
-    
-};
 
 function createTemplate (data){
 
