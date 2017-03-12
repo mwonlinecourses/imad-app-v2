@@ -7,8 +7,8 @@ var config = {
   username : 'mwonlinecourses',
   database : 'mwonlinecourses',
   host : 'db.imad.hasura-app.io',
-  port : '5432'
-  password : process.env.DB_PASSWORD
+  port : '5432',
+  password : process.env.DB_PASSWORD 
 };
 
 var articles ={
