@@ -130,6 +130,7 @@ app.post('/login', function (req, res){
                    //set session
                    req.session.auth = {userId: result.rows[0].id};
                    console.log(req.session.auth.userId.toString());
+                   conslole.log(result.rows[0].id);
                    res.send('Credentials Correct !');
                }else{
                    res.send(403).send('Username/Password Invalid');
